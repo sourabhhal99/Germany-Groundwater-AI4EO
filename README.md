@@ -17,7 +17,7 @@ Unlike traditional "Black-box" AI, this project focuses on **Explainability (XAI
 ## 🛠️ Tech Stack
 * **Data:** Satellite Gravity (GRACE), Rainfall, Temperature.
 * **Models:** LSTM vs GRU (Recurrent Neural Networks).
-* **Explainability:** SHAP (Shapley Additive exPlanations), Permutation Importance.
+* **Explainability:** Permutation Feature Importance (PFI).
 * **Safety:** MC Dropout for Uncertainty Quantification.
 
 ---
@@ -33,7 +33,7 @@ We compared LSTM and GRU models. **GRU outperformed LSTM** in convergence speed 
 ---
 
 ## 🧠 Explainable AI (Why is water decreasing?)
-Using SHAP and Feature Importance analysis, we discovered the root cause:
+Using Permutation Feature Importance (PFI) analysis, we discovered the root cause:
 
 ![XAI Graph](images/xai_shap.png)
 
@@ -52,4 +52,4 @@ If the model is unsure (High Variance), it flags the prediction for human review
 ## 🚀 How to Run
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/TeraUsername/Germany-Groundwater-AI4EO.git](https://github.com/TeraUsername/Germany-Groundwater-AI4EO.git)
+   git clone [https://github.com/sourabhhal99/Germany-Groundwater-AI4EO.git](https://github.com/sourabhhal99/Germany-Groundwater-AI4EO.git)
