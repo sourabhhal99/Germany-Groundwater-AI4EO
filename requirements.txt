@@ -1,0 +1,9 @@
+tensorflow
+pandas
+numpy
+matplotlib
+seaborn
+XAI(Permutation Feature Importance (PFI))
+MC Dropout
+scikit-learn
+jupyter
