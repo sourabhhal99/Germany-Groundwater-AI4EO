@@ -27,8 +27,8 @@ We compared LSTM and GRU models. **GRU outperformed LSTM** in convergence speed 
 
 | Model | MSE Score | RMSE (Meters) | Training Speed |
 | :--- | :--- | :--- | :--- |
-| **LSTM** | 0.0543 | 0.23 m | Slower |
-| **GRU** | **0.0624** | **0.24 m** | **Faster 🚀** |
+| **LSTM** | 0.03593 | 0.18956 m | Slower |
+| **GRU** | **0.02186** | **0.14786 m** | **Faster 🚀** |
 
 ---
 
